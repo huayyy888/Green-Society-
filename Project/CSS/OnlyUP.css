@@ -1,0 +1,23 @@
+/* OnlyUp Button */
+#OnlyUP {
+	/* Default hide it */
+	display: none;
+	/* Location in page */
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	/* Go to the front */
+	z-index: 99;
+	/* Word Size */
+	font-size: 15px;
+	/* border color */
+    border: 1px solid;
+	outline: none;
+	color:black;
+	/* Mouse touch */
+	cursor: pointer;
+	/* Box Size */
+	padding: 15px;
+	/* Set border shape */
+	border-radius: 4px;
+}

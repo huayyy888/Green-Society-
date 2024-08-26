@@ -1,0 +1,34 @@
+.user_picture {
+    max-width: 350px; 
+    max-height: 350px;
+}
+
+#picture_user{
+    max-width: 350px; 
+    max-height: 350px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.user_details_location{
+    display: flex;
+}
+
+.body_loaction{
+    margin: 10px;
+}
+
+#user_picture{
+    width: 340px;
+}
+
+.user_details{
+    padding-left: 20px;
+    min-width: 340px;
+}
+
+.user_address{
+    max-height: 100px;
+    min-width: 350px;
+    overflow: auto;
+}

@@ -1,0 +1,7 @@
+.text_label{
+    float: left;
+}
+
+#eventLocation , #eventDescription{
+    margin-left: 5px;
+}

@@ -1,0 +1,29 @@
+.user_upload_picture_form{
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+.upload_picture_location{
+    display: flex;
+}
+
+.user_picture {
+    max-width: 350px; 
+    max-height: 350px;
+}
+
+#user_picture{
+    width: 320px;
+}
+
+.body_loaction{
+    margin: 10px;
+}
+
+#picture_user{
+    max-width: 350px; 
+    max-height: 350px;
+    padding: 5px;
+    border: 1px solid black;
+}

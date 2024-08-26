@@ -1,0 +1,52 @@
+.user_picture {
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+#picture_user{
+    max-width: 300px; 
+    max-height: 300px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.user_details_location{
+    display: flex;
+}
+
+.body_loaction{
+    margin: 10px;
+}
+
+#user_picture{
+    width: 340px;
+}
+
+.user_details{
+    padding-left: 20px;
+    min-width: 340px;
+}
+
+.user_address{
+    max-height: 100px;
+    min-width: 350px;
+    overflow: auto;
+}
+
+.form_admin_edit_user{
+    padding-left: 20px;
+}
+
+.address_label{
+    float: left;
+}
+
+.user_upload_picture_form{
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+#user_picture{
+    width: 320px;
+}

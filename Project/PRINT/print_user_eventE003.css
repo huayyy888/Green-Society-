@@ -1,0 +1,6 @@
+@media print {
+    /* All print related styles to be added here */
+    header, footer, .add_item_form, .hide-print, .hide-item {
+       display: none !important;
+    }
+ }

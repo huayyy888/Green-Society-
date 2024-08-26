@@ -1,0 +1,29 @@
+.admin_upload_picture_form{
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+.upload_picture_location{
+    display: flex;
+}
+
+.admin_picture {
+    max-width: 350px; 
+    max-height: 350px;
+}
+
+#admin_picture{
+    width: 320px;
+}
+
+.body_loaction{
+    margin: 10px;
+}
+
+#picture_admin{
+    max-width: 350px; 
+    max-height: 350px;
+    padding: 5px;
+    border: 1px solid black;
+}

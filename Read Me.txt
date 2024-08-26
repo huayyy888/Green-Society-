@@ -1,0 +1,14 @@
+admin - http://localhost/green_society/Project/admin_login.php
+member(user) - http://localhost/green_society/Project/user_login.php
+
+admin
+account: 123
+Password: 1234
+
+Member can just register on the spot
+
+-error:
+User can apply for gift, but in admin side cannot show.
+
+
+testing to upload to the github 

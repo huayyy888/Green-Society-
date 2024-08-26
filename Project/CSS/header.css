@@ -1,0 +1,296 @@
+
+
+#OnlyUP, header > nav{
+    border: #527539;
+}
+
+/* header color */
+
+.admin_header_background{
+    background-color:#4e9a42;
+}
+
+.user_header_background{
+    background-color: #81a96f;
+}
+
+.normal_header_background{
+    background-color:#85b365;
+}
+
+/* OnlyUP */
+
+#OnlyUP:hover {
+    background-color: #527539;
+}
+
+.header_item > li > a:hover{
+    border-bottom: 3px solid #507238;
+}
+
+header > nav > a > img{
+    background-color: #85b365;
+}
+
+header > nav > a > img:hover {
+    background-color: #78aa54;
+}
+
+header > nav > ul > li > a{
+    color: black;
+}
+
+.footer_text, .footer_text > p > a {
+    color: white;
+}
+
+.footer_text > p > a:hover {
+    background-color: #9ebe97;
+    border-radius: 20px;
+}
+
+.footer_reserved {
+    color: white;
+    background-color: #2f4f28;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+}
+
+header > nav > a > img {
+    height: 60px;
+    border-radius: 50px;
+}
+
+.logo_border{
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+
+.account_border, .point_border {
+    border-left: 2px solid white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: auto;
+}
+
+.user_border {
+    border-left: 2px solid white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 10px;
+}
+
+.point_border{
+    margin-left: auto;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+header > nav > ul > li {
+    margin-left: 20px;
+}
+
+.account_location, .point_location {
+    margin-left: 0px;
+}
+  
+header > nav > ul > li > a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.account_btn {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #84b263;
+    border: 0;
+}
+
+.point_text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.account_btn > p, .point_text > p {
+    padding-left: 10px;
+}
+
+.account_logo {
+    height: 50px;
+}
+
+.point_text{
+    margin: 5px 0px;
+}
+
+.account_btn:hover{
+    background-color: #accb96;
+}
+
+/* https://www.csswand.dev/ - Shadow */
+
+.shadow {
+    color: black;
+    background-color: #85b365;
+    border: 1px solid #85b365;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    font-size: large;
+    padding: 0px 20px 0px 20px;
+}
+
+.shadow:hover {
+   box-shadow: 1px 1px #5c7946, 2px 2px #5c7946, 3px 3px #5c7946;
+   border: 1px solid #5c7946;
+   transform: translateX(-3px);
+}
+
+/* dropdown-table */
+.dropdown-table {
+    margin-top: 280px;
+    right: 0px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: black 1px solid;
+}
+
+.dropdown-table a {
+    border: black 1px solid;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-table p {
+    border: black 1px solid;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 0;
+}
+
+.dropdown-table a:hover {
+    background-color: #ddd;
+}
+
+/* Tool Menu */
+.close_button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.5;
+    margin-left: 0;
+}
+
+.close_button > i{
+    font-size: xx-large;
+    color: black;
+}
+
+.close_button:hover{
+    transform: rotateZ(-30deg);
+}
+
+.tools_position {
+    margin-left: 40px;
+}
+
+.ToolMenuClass {
+    padding: 10px;
+    background-color: #bcd5aa;
+    display: none;
+}
+
+.toolsflex,.History_Tools{
+    display: flex;
+}
+
+.toolsflex > div{
+    padding-right: 20px;
+}
+
+.toolsflex > div > p{
+    margin: 0px 0px 10px 0px;
+}
+
+.tools_row_line{
+    border-left: 1px solid black;
+}
+
+
+.toolsflex > div > button{
+    margin-left: 10px;
+    text-decoration: none;
+    width: 120px;
+    color: black;
+    background-color: #b7fbb0;
+    border: 0;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.toolsflex > div > button:hover{
+    transform: scale(1.1);
+}
+
+.History_Tools > button{
+    margin: 10px;
+    text-decoration: none;
+    width: 170px;
+    color: black;
+    background-color: #b7fbb0;
+    border: 0;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.History_Tools > button:hover{
+    transform: scale(1.1);
+}
+
+.body_loaction{
+    margin: 10px;
+}

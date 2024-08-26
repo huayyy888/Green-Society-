@@ -1,0 +1,17 @@
+body {
+    min-width: 740px;
+    margin: 0px;
+}
+
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.body_position{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body_location{
+    margin: 10px;
+}
